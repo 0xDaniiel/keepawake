@@ -1,0 +1,22 @@
+{
+  "name": "keepawake",
+  "version": "1.0.0",
+  "description": "Prevents your Node.js process or online dev session from going to sleep by running a persistent heartbeat.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "keepalive",
+    "prevent-sleep",
+    "nodejs",
+    "heartbeat",
+    "devtool",
+    "stay-awake",
+    "cli"
+  ],
+  "author": "0xDaniiel",
+  "license": "ISC",
+  "type": "module"
+}
