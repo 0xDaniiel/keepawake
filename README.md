@@ -46,8 +46,8 @@ This logs a heartbeat message every minute and keeps the session alive.
 
 ## 🏷️ Flags
 
---interval=<seconds> : Set how often to ping (default is every 300 seconds / 5 minutes)  
---once : Send just one ping, then exit  
---local : Keep your local terminal session awake  
---help or -h : Show the help menu  
---version or -v : Show the current version
+`-- interval=<seconds> ` : Set how often to ping (default is every 300 seconds / 5 minutes)  
+ `-- once` : Send just one ping, then exit  
+ `-- local ` : Keep your local terminal session awake  
+ `-- help ` or `-h` : Show the help menu  
+ `-- version ` or `-v `: Show the current version
