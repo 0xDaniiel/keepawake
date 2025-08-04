@@ -2,9 +2,11 @@
   "name": "keepawake",
   "version": "1.0.0",
   "description": "Prevents your Node.js process or online dev session from going to sleep by running a persistent heartbeat.",
-  "main": "index.js",
+  "bin": {
+    "keepawake": "./bin/index.mjs"
+  },
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./bin/index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
